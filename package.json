@@ -1,0 +1,27 @@
+{
+  "name": "image-upload",
+  "version": "1.0.0",
+  "description": "Upload Image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development nodemon -r esm index.js",
+    "start": "NODE_ENV=production node -r esm index.js"
+  },
+  "keywords": [
+    "express",
+    "multer",
+    "body-parser"
+  ],
+  "author": "Afrilogic Solutions",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "^12.8.0",
+    "dotenv": "^14.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.2",
+    "into-stream": "^5.1.1",
+    "multer": "^1.4.4",
+    "multer-azure-blob-storage": "^1.1.0"
+  }
+}
