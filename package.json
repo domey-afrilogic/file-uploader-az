@@ -21,7 +21,6 @@
     "esm": "^3.2.25",
     "express": "^4.17.2",
     "into-stream": "^5.1.1",
-    "multer": "^1.4.4",
-    "multer-azure-blob-storage": "^1.1.0"
+    "multer": "^1.4.4"
   }
 }
